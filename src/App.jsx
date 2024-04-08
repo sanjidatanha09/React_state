@@ -13,10 +13,7 @@ function App() {
        
       </div>
       
-      <div className="card">
-       
-        
-      </div>
+      
       
     </>
   )
