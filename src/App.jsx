@@ -23,7 +23,7 @@ function App() {
     border:'2px solid purple',
     margin:'15px',
     padding: '15px',
-    borderRadius: '15px'
+    borderRadius: '15px',
   }
   
 
