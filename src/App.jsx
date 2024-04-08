@@ -6,7 +6,7 @@ import User from './User'
 
 function App() {
 
-  const [team, setTeam] = useState(0)
+  const [team, setTeam] = useState(10)
 
   const handleAdd = () => {
     const teams = team + 1
