@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import './App.css'
+import User from './User'
 
 function App() {
 
@@ -36,6 +37,8 @@ function App() {
         <button onClick={handleRemove}>Remove</button>
       </div>
       
+
+      <User></User>
       
     </>
   )
