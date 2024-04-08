@@ -5,13 +5,17 @@ import './App.css'
 
 function App() {
 
-  const {team, setTeam} = useState(0)
+  const [team, setTeam] = useState(0)
 
   const handleAdd = () => {
+    const teams = team + 1
+    setTeam(teams)
+
 
   }
   const handleRemove = () =>{
-    
+     const teams = team - 1 
+    setTeam(teams)
   }
 
   const teamStyle = {
