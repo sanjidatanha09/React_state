@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
+import BottlesCard from './BottlesCard';
 
 const Bottles = () => {
     const [bottles, setBottles] = useState([])
@@ -13,6 +14,14 @@ const Bottles = () => {
     return (
         <div>
             <h2>Bottles here :{bottles.length}</h2>
+
+            <div className='grid grid-cols'>
+                {
+                    bottles.map(bottle => <BottlesCard key={bottle.id} bottle={bottle}></BottlesCard>)
+                }
+
+            </div>
+            
         </div>
     );
 };
