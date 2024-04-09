@@ -19,6 +19,12 @@ const User = () => {
         <div>
             <h3>users : {users.length}</h3>
         </div>
+
+         <div>
+            <h3>users : {users.length}</h3>
+        </div>
+
+        
     );
 };
 
