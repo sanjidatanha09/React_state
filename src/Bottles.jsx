@@ -4,7 +4,7 @@ import React from 'react';
 const Bottles = () => {
     return (
         <div>
-            
+            <h2>Bottles here</h2>
         </div>
     );
 };
