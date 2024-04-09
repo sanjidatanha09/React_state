@@ -15,7 +15,7 @@ const Bottles = () => {
         <div>
             <h2>Bottles here :{bottles.length}</h2>
 
-            <div className='grid grid-cols'>
+            <div className='grid grid-cols-3'>
                 {
                     bottles.map(bottle => <BottlesCard key={bottle.id} bottle={bottle}></BottlesCard>)
                 }
