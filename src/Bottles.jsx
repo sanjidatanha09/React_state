@@ -8,7 +8,7 @@ const Bottles = () => {
         fetch('fake.json')
         .then(res =>res.json())
         .then(data =>setBottles(data))
-    })
+    },[])
     return (
         <div>
             <h2>Bottles here :{bottles.length}</h2>

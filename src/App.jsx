@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import './App.css'
 import User from './User'
+import Bottles from './Bottles'
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
       
 
       <User></User>
+
+      <Bottles></Bottles>
       
     </>
   )
