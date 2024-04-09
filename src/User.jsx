@@ -12,6 +12,13 @@ const User = () => {
         .then(data =>setUsers(data))
     }, [])
 
+    useEffect(() => {
+        fetch("https://jsonplaceholder.typicode.com")
+
+            .then(res => res.json())
+            .then(data => setUsers(data))
+    }, [])
+
 
 
 
@@ -23,7 +30,7 @@ const User = () => {
                 <h3>users : {users.length}</h3>
             </div>
 
-            
+
         </div>
 
         
