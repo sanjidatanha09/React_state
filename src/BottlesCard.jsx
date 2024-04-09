@@ -19,7 +19,7 @@ const BottlesCard = ({ bottlecard,handleAddtoCart }) => {
     return (
         <div style={teamStyle}>
             <h2>{name}</h2>
-            <button className='btn border-t-neutral-800' onClick={() => handleAddtoCart()}>Purchase</button>
+            <button className='btn border-t-neutral-800' onClick={() => handleAddtoCart(bottlecard)}>Purchase</button>
 
 
             <div>

@@ -4,6 +4,7 @@ import BottlesCard from './BottlesCard';
 
 const Bottles = () => {
     const [bottles, setBottles] = useState([])
+    const [cart, setCart] = useState([])
 
     useEffect( () =>{
         fetch('fake.json')
@@ -13,11 +14,19 @@ const Bottles = () => {
     // dfd
 
     const handleAddCart = bottle =>{
-        console.log("added");
+        // console.log("added");
+        // console.log(bottle)
+
+        const newCart = [...cart,bottle]
+        console.log(newCart);
+        setCart(newCart)
     }
+
     return (
         <div>
             <h2>Bottles here :{bottles.length}</h2>
+            <h2>cart added :{cart.length}</h2>
+
 
             <div className='grid grid-cols-3'>
                 {
@@ -27,6 +36,14 @@ const Bottles = () => {
                 }
 
             </div>
+
+            {/* const getStoraedCard = () =>{
+                const storedCartString = localStorage.getItem('cart');
+                if(storedCartString){
+                    return JSON.parse(storedCartString)
+                }
+                return [];
+            } */}
             
         </div>
     );
