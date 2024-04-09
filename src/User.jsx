@@ -19,6 +19,14 @@ const User = () => {
             .then(data => setUsers(data))
     }, [])
 
+    useEffect(() => {
+        fetch("https://jsonplaceholder.typicode.com/u")
+
+            .then(res => res.json())
+            .then(data => setUsers(data))
+    }, [])
+
+
 
 
 
