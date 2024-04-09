@@ -20,6 +20,11 @@ const BottlesCard = ({ bottlecard,handleAddtoCart }) => {
         <div style={teamStyle}>
             <h2>{name}</h2>
             <button className='btn border-t-neutral-800' onClick={() => handleAddtoCart()}>Purchase</button>
+
+
+            <div>
+                <button className='btn border-t-neutral-800' >Purchase</button>
+            </div>
         </div>
     );
 };
