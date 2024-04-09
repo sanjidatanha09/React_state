@@ -2,9 +2,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const BottlesCard = ({ bottle }) => {
+const BottlesCard = ({ bottlecard,handleAddtoCart }) => {
 
-    const {  name, position } = bottle;
+    const { name, position } = bottlecard;
 
 
     const teamStyle = {
@@ -19,7 +19,7 @@ const BottlesCard = ({ bottle }) => {
     return (
         <div style={teamStyle}>
             <h2>{name}</h2>
-            <button onClick={}>Purchase</button>
+            <button className='btn border-t-neutral-800' onClick={() => handleAddtoCart()}>Purchase</button>
         </div>
     );
 };
