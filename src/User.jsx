@@ -18,13 +18,17 @@ const User = () => {
     return (
         <div>
             <h3>users : {users.length}</h3>
-        </div>
 
-         <div>
-            <h3>users : {users.length}</h3>
+            <div>
+                <h3>users : {users.length}</h3>
+            </div>
+
+            
         </div>
 
         
+
+
     );
 };
 
