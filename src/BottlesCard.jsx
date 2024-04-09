@@ -23,7 +23,7 @@ const BottlesCard = ({ bottlecard,handleAddtoCart }) => {
 
 
             <div>
-                <button className='btn border-t-neutral-800' >Purchase</button>
+                <button className='btn border-t-neutral-800' >Purchas</button>
             </div>
         </div>
     );
