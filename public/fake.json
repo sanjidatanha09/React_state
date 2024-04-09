@@ -50,5 +50,12 @@
             "position": "Financial Analyst",
             "department": "Finance",
             "salary": 70000
+        },
+        {
+            "id": 7,
+            "name": "Bob Brown",
+            "position": "Financial Analyst",
+            "department": "Finance",
+            "salary": 70000
         }
     ]
